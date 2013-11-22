@@ -1,0 +1,11 @@
+* {
+  border: 1px solid green;
+}
+
+body {
+  width: 960px;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  margin: 0px auto;
+  line-height: 1.4em;
+}
