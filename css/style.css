@@ -9,3 +9,22 @@ body {
   margin: 0px auto;
   line-height: 1.4em;
 }
+
+.logo {
+  float: left;
+}
+
+#slogan {
+  background-image: url("../img/slogan_tapbots.gif");
+  background-position: 0% 0%;
+  float: left;
+  text-indent: -9000px;
+}
+
+nav {
+  float: right;
+}
+
+#feature {
+  clear: both;
+}
