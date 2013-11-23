@@ -13,6 +13,7 @@ body {
 header {
   overflow: auto;
   width: 100%;
+  clear: both;
 }
 
 .logo {
@@ -28,7 +29,6 @@ header {
   margin: 20px 0px 0px 10px;
   padding: 20px 20px 10px 20px;
   width: 220px;
-
 }
 
 nav {
@@ -44,4 +44,22 @@ nav a {
 
 #feature {
   clear: both;
+  background-image: url("../img/hero_tweetbot_mac.jpg");
+  background-repeat: no-repeat;
+  height: 380px;
+  width: 100%;
+}
+
+section {
+  clear: both;
+  margin: 10px 0px;
+}
+
+.product {
+  float: left;
+  width: 300px;
+  height: 180px;
+  margin: 10px;
+  background-image: url("../img/product_promo_bg.jpg");
+  background-repeat: no-repeat;
 }
