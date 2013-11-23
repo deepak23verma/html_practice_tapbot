@@ -42,17 +42,19 @@ nav a {
   margin: 10px 5px;
 }
 
+section {
+  clear: both;
+  margin: 10px auto;
+  width: 100%;
+  overflow: auto;
+}
+
 #feature {
   clear: both;
   background-image: url("../img/hero_tweetbot_mac.jpg");
   background-repeat: no-repeat;
+  width: 940px;
   height: 380px;
-  width: 100%;
-}
-
-section {
-  clear: both;
-  margin: 10px 0px;
 }
 
 .product {
