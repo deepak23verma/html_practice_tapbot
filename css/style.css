@@ -5,10 +5,11 @@
 body {
   text-align: center;
   font-family: verdana, sans-serif;
-  line-height: 1.4em;
+  line-height: 1.7em;
+  margin: 0px;
 }
 
-#wrapper {
+.wrapper {
   width: 960px;
   margin: 0px auto;
 }
@@ -77,6 +78,39 @@ footer {
   background-color: #19191a;
   border-top: 5px solid #c0c0c8;
   color: #565656;
+  margin-top: 100px;
+}
+
+section#contacts {
+  margin-top: 50px;
+}
+
+.contact {
+  float: left;
+  display: inline-block;
+  background-image: url("../img/company_promo_bg.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  width: 220px;
+  height: 180px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact_text {
+  margin: 120px auto 0px auto;
+  font-size: 70%;
+  line-height: 1.7em;
+  height: 70px;
+  color: #777;
+}
+
+.contact_text p:first-child {
+  font-size: 16px;
+  line-height: 0em;
+  color: #fff;
+  letter-spacing: 0.07em;
+  text-shadow: #222 0 -1px 0;  
 }
 
 ol, ul {
