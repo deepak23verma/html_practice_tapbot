@@ -68,7 +68,6 @@ section {
   margin: 10px;
   background-image: url("../img/product_promo_bg.jpg");
   background-repeat: no-repeat;
-  opacity: 0.8;
   line-height: 1.5em;
   font-size: 75%;
   text-decoration: none;
@@ -78,13 +77,12 @@ section {
 
 .product p {
   margin-top: 0px;
-  font-weight: 900;
-  opacity: 1;
+  font-weight: 500;
 }
 
 
 .product:hover {
-  opacity: 1;
+  background-position: 0px -180px;
 }
 
 footer {
@@ -116,6 +114,10 @@ section#contacts {
   margin-right: 10px;
 }
 
+.contact:hover {
+  background-position: 0px -180px;
+}
+
 .contact_content {
   position: relative;
   top: -100px;
@@ -134,5 +136,6 @@ section#contacts {
   line-height: 0em;
   color: #fff;
   letter-spacing: 0.07em;
-  text-shadow: #222 0 -1px 0;  
+  text-shadow: #222 0 -1px 0;
+  text-transform: uppercase;  
 }
