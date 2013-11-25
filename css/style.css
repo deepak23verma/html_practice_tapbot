@@ -16,8 +16,9 @@ body {
 
 header {
   overflow: auto;
-  width: 100%;
+  width: 940px;
   clear: both;
+  margin: 0px auto;
 }
 
 .logo {
@@ -41,7 +42,7 @@ nav {
 }
 
 nav a {
-  display: inline-block;
+  display: inline;
   text-transform: uppercase;
   margin: 10px 5px;
 }
