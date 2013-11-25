@@ -74,26 +74,29 @@ footer {
   clear: both;
   width: 100%;
   min-width: 960px;
-  overflow: auto;
+  /*overflow: auto;*/
   background-color: #19191a;
   border-top: 5px solid #c0c0c8;
   color: #565656;
   margin-top: 100px;
 }
 
-section#contacts {
+ul#contacts {
   margin-top: 50px;
   height: 190px;
+  clear: both;
+  margin: 0px auto;
 }
 
-.contact {
+li.contact {
   float: left;
-  display: inline-block;
+  display: inline;
   background-image: url("../img/company_promo_bg.png");
   background-repeat: no-repeat;
   background-position: 0% 0%;
   width: 220px;
   height: 180px;
+  margin-top: 30px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -106,9 +109,9 @@ section#contacts {
   color: #777;
 }
 
-.contact_text img {
+.contact img {
   position: relative;
-  top: -285px;
+  top: -185px;
 }
 
 .contact_text p:first-child {
