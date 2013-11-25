@@ -61,6 +61,40 @@ section {
   height: 380px;
 }
 
+#feature_nav {
+  background-image: url("../img/button_fake_tweetbot.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 60px;
+  margin: 320px auto 0px auto;
+}
+
+#feature_nav_iphone {
+  float: left;
+  background-image: url("../img/button_iphone.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 300px;
+  height: 60px;
+}
+
+#feature_nav_iphone:hover {
+  background-position: 0px -60px;
+}
+
+#feature_nav_ipad {
+  float: right;
+  background-image: url("../img/button_ipad.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 300px;
+  height: 60px;
+}
+
+#feature_nav_ipad:hover {
+  background-position: 0px -60px;
+}
+
 .product {
   float: left;
   width: 300px;
